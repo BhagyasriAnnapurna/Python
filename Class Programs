@@ -1,0 +1,124 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNqE96kW1xbt7AKeXpa7ynW",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/BhagyasriAnnapurna/Python/blob/main/Class%20Programs\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 10,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jBMUS3NDCstC",
+        "outputId": "d900dd09-7806-41a2-dab0-b84b09d3a87a"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['b', 'agyasri annapurna ']\n",
+            "Bhagyasri annapurna \n",
+            "Bhagyasri Annapurna \n",
+            "bhagyasri annapurna\n",
+            "BHAGYASRI ANNAPURNA \n",
+            "33333bhagyasri annapurna 33333\n",
+            "False\n",
+            "True\n",
+            "False\n",
+            "True\n",
+            "False\n",
+            "True\n",
+            "False\n"
+          ]
+        }
+      ],
+      "source": [
+        "s='bhagyasri annapurna '\n",
+        "print(s.split('h'))\n",
+        "print(s.capitalize())\n",
+        "print(s.title())\n",
+        "print(s.strip())\n",
+        "print(s.upper())\n",
+        "print(s.center(30,'3'))\n",
+        "print(s.isspace())\n",
+        "print(s.startswith('b'))\n",
+        "print(s.startswith('f'))\n",
+        "b=' '\n",
+        "print(b.isspace())\n",
+        "s='2abc'\n",
+        "print(s.isdigit())\n",
+        "print(s.isalnum())\n",
+        "print(s.isalpha())"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "s='bhagya sri'\n",
+        "print(s[:4])\n",
+        "print(s[2:])\n",
+        "print(s[-1:])\n",
+        "print(s[-8:-1])\n",
+        "print(s[-1:-8])\n",
+        "print(s[::])\n",
+        "print(s[1:10:2])\n",
+        "print(s[-1:-10:-3])\n",
+        "print(s[-10:-1:2])\n",
+        "print(s[1:5:1])\n",
+        "print(s[::-1])\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1HCo7i8kCvXs",
+        "outputId": "6ade6796-967b-45b3-926e-da75fc9f15a7"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "bhag\n",
+            "agya sri\n",
+            "i\n",
+            "agya sr\n",
+            "\n",
+            "bhagya sri\n",
+            "hgasi\n",
+            "i g\n",
+            "bay r\n",
+            "hagy\n",
+            "irs aygahb\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
