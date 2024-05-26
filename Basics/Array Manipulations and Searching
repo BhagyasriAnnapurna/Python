@@ -1,0 +1,27 @@
+from array import *
+arr=array('i',[2,3,5,-7,6])
+print(arr)
+#for one by one value
+for i in arr:
+    print(i)
+#for copying array into new array
+newArr=array(arr.typecode,[a for a in arr])
+print(newArr)
+#to print square of all elements by creating new array
+newArr=array(arr.typecode,[a*a for a in arr])
+print(newArr)
+#to create array from user
+val=array('i',[])
+n=int(input('enter the length of array:'))
+for i in range(n):
+    x=int(input('enter the number:'))
+    val.append(x)
+print(val)
+#to search a value in array
+s=int(input('enter the value to search:'))
+k=0
+for e in val:
+    if e==s:
+        print(k)
+        break
+    k+=1
